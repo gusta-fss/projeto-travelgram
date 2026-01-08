@@ -1,0 +1,45 @@
+header,
+#about,
+#info,
+#info li {
+    display: flex;
+    align-items: center;
+}
+
+#prof-header {
+    height: 176px;
+    width: 176px;
+}
+
+header {
+    height: 240px;
+    justify-content: space-between;
+    padding-block: 32px;
+    font: var(--text-md);
+}
+
+#about {
+    gap: 32px;
+}
+
+#about h1 {
+    margin-bottom: 8px;
+}
+
+#about div {
+    width: 384px;
+}
+
+#info {
+    width: 280px;
+}
+
+#info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+#info li {
+    gap: 8px;
+}
