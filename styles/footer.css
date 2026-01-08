@@ -1,11 +1,10 @@
 footer {
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
     padding-block: 24px;
+    font: 14px/150% var(--font-family);
 }
 
-footer div {
-    display: flex;
-    gap: 24px;
-    padding-block: 4px;
+footer span:nth-child(1) {
+    margin-right: auto;
 }
